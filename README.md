@@ -6,7 +6,7 @@
 
 This is a Concurrent design pattern made in Go, reusable for many projects, which I called Resource Balancer!
 
-Having some defined limited **resources,** (an example in real life could be technical support operators), and some continuous consumers for the resources called **units**, This design pattern assigns the consumers to available resources, also making them available again as soon as units stop requiring them, working in a multi-tasking nature.
+Having some defined limited **resources,** (an example in real life could be technical support operators), and some continuous consumers for the resources called **units** (Following the analogy, these would be users requesting technical support over the phone), This design pattern assigns the consumers to available resources (distributing the calls over the available operators), also making them available again as soon as units stop requiring them, working in a multi-tasking nature.
 
 ## How is this helpful?
 
