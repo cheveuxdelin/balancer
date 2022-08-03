@@ -63,7 +63,7 @@ func (b *Balancer) outcoming(n int, position int) {
 }
 
 func (b *Balancer) print() {
-	//fmt.Print("\033[H\033[2J")
+	fmt.Print("\033[H\033[2J")
 	for i := range b.resources {
 		if b.resources[i] {
 			color.Red.Print("●")
